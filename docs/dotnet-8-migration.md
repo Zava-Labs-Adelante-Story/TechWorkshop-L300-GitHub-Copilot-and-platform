@@ -79,7 +79,7 @@ Note: .NET 6.0 has reached End of Life and is no longer receiving security updat
 1. ✅ Immediate: Upgrade complete - application running on .NET 8.0 LTS
 2. Monitor application logs post-deployment for any runtime issues
 3. Address pre-existing nullable reference warnings in a future update
-4. Plan for .NET 9.0 evaluation (when it reaches LTS status in November 2025)
+4. Plan for .NET 10.0 evaluation when it becomes available (expected November 2026)
 
 ## References
 - [.NET 8.0 Release Notes](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8)
