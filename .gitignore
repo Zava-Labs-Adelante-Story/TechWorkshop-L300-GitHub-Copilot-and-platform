@@ -94,6 +94,8 @@ htmlcov/
 **/Dockerfile*
 **/.dockerignore
 docker-compose.override.yml
+# But allow the main Dockerfile in src for deployment
+!src/Dockerfile
 
 # Logs
 *.log
