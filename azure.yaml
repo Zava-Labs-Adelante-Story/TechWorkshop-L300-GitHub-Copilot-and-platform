@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: techworkshop-l300-github-copilot-and-platform
+metadata:
+  template: azd-init@1.22.0
+
+infra:
+  provider: bicep
+  path: infra
+  module: main
+
+services:
+  src:
+    project: src/ZavaStorefront.csproj
+    host: appservice
+    language: dotnet
+    docker:
+      path: src/Dockerfile
+      context: src
